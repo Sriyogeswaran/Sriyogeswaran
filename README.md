@@ -1,4 +1,4 @@
-    matchIndex = np.argmin(faceDis)
+ matchIndex = np.argmin(faceDis)
 
     if matches[matchIndex]:
         face_rect = haar_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=3)
